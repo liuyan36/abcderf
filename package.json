@@ -1,0 +1,49 @@
+{
+  "name": "vue-admin-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@packy-tang/vue-tinymce": "^1.1.2",
+    "amfe-flexible": "^2.2.1",
+    "ansi-html-community": "0.0.8",
+    "axios": "^0.21.2",
+    "core-js": "^3.4.3",
+    "echarts": "^5.3.3",
+    "element-ui": "^2.15.8",
+    "file-saver": "^2.0.5",
+    "js-cookie": "^3.0.1",
+    "js-file-download": "^0.4.12",
+    "lib-flexible": "^0.3.2",
+    "lib-flexible-computer": "^1.0.2",
+    "postcss-px2rem": "^0.3.0",
+    "postcss-px2rem-exclude": "0.0.6",
+    "qs": "^6.10.3",
+    "script-loader": "^0.7.2",
+    "tinymce": "^5.10.6",
+    "vcolorpicker": "^1.1.0",
+    "view-design": "^4.0.2",
+    "vue": "^2.6.10",
+    "vue-echarts": "^6.0.2",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-unit-jest": "^4.1.0",
+    "@vue/cli-service": "^4.5.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "less": "^4.1.2",
+    "less-loader": "^4.1.0",
+    "postcss": "^8.4.12",
+    "postcss-pxtorem": "^6.0.0",
+    "px2rem-loader": "^0.1.9",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

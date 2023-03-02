@@ -1,0 +1,44 @@
+{
+  "id": "2663730",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1508066",
+      "name": "增加",
+      "font_class": "zengjia",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "16907305",
+      "name": "订单",
+      "font_class": "icon-1-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13769875",
+      "name": "icon_travel_ticket_fill",
+      "font_class": "icon_travel_ticket_fill",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "16469172",
+      "name": "多人",
+      "font_class": "duoren",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "18272418",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

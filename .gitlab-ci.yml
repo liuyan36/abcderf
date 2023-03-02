@@ -1,0 +1,27 @@
+stages:
+  - build 
+  - deploy_one
+  # - deploy_all
+ 
+build:
+  stage: build
+  script:
+    - rm -rf  node_modules
+    - sh -xe build.sh 
+  artifacts:
+    expose_as: 'dist'
+    paths: ['output']
+
+deploy-one:
+  stage: deploy_one
+  script:
+    - scp  -rv output/*  root@47.107.58.146:/home/wwwroot/dwhk_new_backend/
+
+  when: manual
+
+# deploy-all:
+#   stage: deploy_all
+#   script:
+#     - scp  -rv output/*  root@47.106.120.225:/home/wwwroot/php-yc1/public/yuncanghtml/
+#     - scp  -rv yinsi.html  root@47.106.171.243:/home/wwwroot/php-yc1/public/
+#   when: manual

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "element-icons"; /* Project id 3358276 */
+  src: url('iconfont.woff2?t=1651733558001') format('woff2'),
+       url('iconfont.woff?t=1651733558001') format('woff'),
+       url('iconfont.ttf?t=1651733558001') format('truetype');
+}
+
+.element-icons {
+  font-family: "element-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.el-icon-backclass:before {
+  content: "\e60e";
+}
+
+.el-icon-icon-lingdang:before {
+  content: "\e60d";
+}
+
+.el-icon-team:before {
+  content: "\e603";
+}
+
+.el-icon-team-active:before {
+  content: "\e604";
+}
+
+.el-icon-administration:before {
+  content: "\e605";
+}
+
+.el-icon-order:before {
+  content: "\e606";
+}
+
+.el-icon-home-active:before {
+  content: "\e607";
+}
+
+.el-icon-home:before {
+  content: "\e608";
+}
+
+.el-icon-order-active:before {
+  content: "\e609";
+}
+
+.el-icon-earnings:before {
+  content: "\e60a";
+}
+
+.el-icon-administration-active:before {
+  content: "\e60b";
+}
+
+.el-icon-earnings-active:before {
+  content: "\e60c";
+}
+
+.el-icon-nav_icon_sy_lv:before {
+  content: "\e602";
+}
+

@@ -1,0 +1,37 @@
+{
+  "id": "3545604",
+  "name": "登录页",
+  "font_family": "element-icons",
+  "css_prefix_text": "el-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "30827944",
+      "name": "phone",
+      "font_class": "phones",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "30827945",
+      "name": "账号",
+      "font_class": "zhanghao",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "30827946",
+      "name": "verification",
+      "font_class": "verification",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "30827947",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}
